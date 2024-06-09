@@ -1,0 +1,125 @@
+[{
+    "id": "11",
+    "title": "<p><strong>标题1</strong></p>",
+    "type": "radio",
+    "setting": [{
+        "key": "11",
+        "label": "男",
+        "value": "男",
+        "defaultChecked": false
+      },
+      {
+        "key": "12",
+        "label": "女",
+        "value": "女",
+        "defaultChecked": false
+      },
+      {
+        "key": "13",
+        "label": "保密",
+        "value": "保密",
+        "defaultChecked": true
+      }
+    ],
+    "answer": []
+  }, {
+    "id": "12",
+    "title": "<p><strong>标题2</strong></p>",
+    "type": "checkbox",
+    "setting": [{
+        "key": "21",
+        "label": "早晨",
+        "value": "早晨",
+        "defaultChecked": false
+      },
+      {
+        "key": "22",
+        "label": "傍晚",
+        "value": "傍晚",
+        "defaultChecked": false
+      },
+      {
+        "key": "23",
+        "label": "午夜",
+        "value": "午夜",
+        "defaultChecked": true
+      }
+    ],
+    "answer": []
+  }, {
+    "id": "13",
+    "title": "<p><strong>标题3</strong></p>",
+    "type": "selector",
+    "setting": [{
+        "key": "31",
+        "label": "男",
+        "value": "男",
+        "defaultChecked": false
+      },
+      {
+        "key": "32",
+        "label": "女",
+        "value": "女",
+        "defaultChecked": false
+      },
+      {
+        "key": "33",
+        "label": "保密",
+        "value": "保密",
+        "defaultChecked": true
+      }
+    ],
+    "answer": []
+  }, {
+    "id": "14",
+    "title": "<p><strong>标题4</strong></p>",
+    "type": "rate",
+    "setting": [{
+        "key": "41",
+        "label": "极差",
+        "value": "极差",
+        "num": "1",
+        "notScored": false
+      },
+      {
+        "key": "42",
+        "label": "失望",
+        "value": "失望",
+        "num": "2",
+        "notScored": false
+      },
+      {
+        "key": "43",
+        "label": "一般",
+        "value": "一般",
+        "num": "3",
+        "notScored": false
+      },
+      {
+        "key": "44",
+        "label": "满意",
+        "value": "满意",
+        "num": "4",
+        "notScored": false
+      },
+      {
+        "key": "45",
+        "label": "惊喜",
+        "value": "惊喜",
+        "num": "5",
+        "notScored": false
+      }
+    ],
+    "answer": [4]
+  },
+  {
+    "id": "15",
+    "title": "<p><strong>标题5</strong></p>",
+    "type": "input",
+    "setting": [{
+      "key": "51",
+      "placeholder": "请输入"
+    }],
+    "answer": []
+  }
+]
