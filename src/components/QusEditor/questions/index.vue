@@ -10,6 +10,9 @@
   import singleRate from './rate/single-rate'
   import multipleRate from './rate/multiple-rate'
   import matrixRate from './rate/matrix-rate'
+  import npsRate from './rate/nps-rate'
+  import singleInput from './input/single-input.vue'
+  import multipleInput from './input/multiple-input.vue'
   export default {
     name: 'question',
     components: {
@@ -19,7 +22,10 @@
       rate,
       singleRate,
       multipleRate,
-      matrixRate
+      matrixRate,
+      npsRate,
+      singleInput,
+      multipleInput
     },
     props: {
       qusOption: {
